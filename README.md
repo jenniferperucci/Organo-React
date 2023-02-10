@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<h1 align="center">
+     Organo
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="left">
+    Pessoas e times em um só lugar!
+</h4>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  🕵Sobre
 
-### `npm start`
+ Aplicação com intuito de criar um organizador para empresas, site onde você pode organizar sua equipe em times. O colaborador se cadastra pelo formulário e um card é criado de acordo com seu cargo e equipe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  👩🏾Quem Faz 
 
-### `npm test`
+- Jennifer Perucci
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
+##  🔠Conteúdos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!--ts-->
+   * [Sobre](#sobre)
+   * [Quem Faz](#-quem-faz)
+   * [Status](#status)
+   * [Objetivo do Projeto](#objetivo-do-projeto)
+   * [Requisitos de Funcionalidade](#requisitos-de-funcionalidade)
+   * [Concepção do Projeto](#concepcao-do-projeto)
+   * [Link para Acessar](#link-para-acessar)
+   * [Rodando o Projeto](#rodando-o-projeto)
+   * [Sobre a Licença](#sobre-a-licença)
+<!--te-->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+##  🧭Status do Projeto
 
-### `npm run eject`
+ - ⏳ Fazendo (Responsividade)
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  🎯Objetivo do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este é um projeto de Front-end, cujo o principal objetivo é estudar e compreender : React.js; Figma; Deploy com Vercel.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## ☑️Requisitos de Funcionalidade
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] Cadastro do colaborador 
+- [x] Criar card do colaborador
+- [x] Separar os colaboradores por times 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![organo](https://user-images.githubusercontent.com/102336146/217114506-0f3618bb-28da-4840-938d-44173f1cefdd.png) 
+![times-organo](https://user-images.githubusercontent.com/102336146/217114799-0b65a1fc-c4d3-4f49-b6e3-ae30825fdbe3.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💡Concepção do Projeto
 
-### Making a Progressive Web App
+- **Link do Figma:**  https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134%3A128&t=3VL1Tq0FU2ITLtId-0 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔗Link para Acessar
 
-### `npm run build` fails to minify
+- **Vercel:**  https://organo-react-rouge.vercel.app 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+
+## 🛰Rodando o Projeto
+
+Para Rodar o projeto, siga as seguintes etapas :
+
+- Para instalar as dependẽncias :  Rode no terminal o comando npm i
+- Para rodar o projeto: Rode no terminal o comando npm start
+
+
+
+---
+
+## 📝Sobre a Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
