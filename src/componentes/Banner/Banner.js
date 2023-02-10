@@ -1,10 +1,10 @@
-import './Banner.css'
+import  {Banners} from './StyleBanner'
 
 export const Banner = () => {
-    // JSX
+
     return (
-        <header className="banner">
+        <Banners>
             <img src="/imagens/banner.png" alt="O banner principal da página do Organo"/>
-        </header>
+        </Banners>
     )
 }

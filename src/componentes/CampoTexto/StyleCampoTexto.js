@@ -1,14 +1,13 @@
-.campo-texto {
-    margin: 24px 0;
-}
+import styled from 'styled-components';
 
-.campo-texto label {
+export const CampoDeTexto = styled.div`
+    margin: 24px 0;
+ label{
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
-}
-
-.campo-texto input {
+ }
+ input{
     background-color: #FFF;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
@@ -16,4 +15,7 @@
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
-}
+
+ }
+
+`;

@@ -1,4 +1,4 @@
-import './CampoTexto.css'
+import { CampoDeTexto } from "./StyleCampoTexto"
 
 const CampoTexto = (props) => {
 
@@ -9,12 +9,12 @@ const CampoTexto = (props) => {
     }
 
     return (
-        <div className="campo-texto">
+        <CampoDeTexto>
             <label>
                 {props.label}
             </label>
             <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
-        </div>
+        </CampoDeTexto>
     )
 }
 
