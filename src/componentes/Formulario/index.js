@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
-import './Formulario.css'
+import {Formularios} from './StyleFormulario'
 
 const Formulario = (props) => {
 
@@ -26,7 +26,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <section className="formulario">
+        <Formularios>
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
                 <CampoTexto 
@@ -60,7 +60,7 @@ const Formulario = (props) => {
                     Criar Card
                 </Botao>
             </form>
-        </section>
+        </Formularios>
     )
 }
 

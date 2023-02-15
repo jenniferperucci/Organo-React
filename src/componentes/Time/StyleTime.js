@@ -1,18 +1,19 @@
-.time {
+import styled from 'styled-components';
+
+export const Times= styled.section`
     text-align: center;
     padding: 32px;
-}
-
-.time h3 {
+ h3{
     font-size: 32px;
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
-}
+ }
+`;
 
-.time .colaboradores {
+export const Funcionarios = styled.div`
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
     flex-wrap: wrap;
-}
+`;
