@@ -73,7 +73,7 @@ Este é um projeto de Front-end, cujo o principal objetivo é estudar e compreen
 
 ## 🔗Link para Acessar
 
-- **Vercel:**  https://organo-react-rouge.vercel.app 
+- **Vercel:**  https://organo-react-teamns.vercel.app/
 
 ---
 
