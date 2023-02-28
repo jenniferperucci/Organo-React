@@ -38,14 +38,14 @@
 ---
 ##  🧭Status do Projeto
 
- - ⏳ Fazendo (Responsividade)
+ - ⌛ Feito
  
 
 ---
 
 ##  🎯Objetivo do Projeto
 
-Este é um projeto de Front-end, cujo o principal objetivo é estudar e compreender : React.js; Figma; Deploy com Vercel.
+Este é um projeto de Front-end, cujo o principal objetivo é estudar e compreender : React.js; Figma; Styled-Components; Responsividade e Deploy com Vercel.
 
 
 ## ☑️Requisitos de Funcionalidade
@@ -53,6 +53,7 @@ Este é um projeto de Front-end, cujo o principal objetivo é estudar e compreen
 - [x] Cadastro do colaborador 
 - [x] Criar card do colaborador
 - [x] Separar os colaboradores por times 
+- [x] Responsividade
 
 
 ![organo](https://user-images.githubusercontent.com/102336146/217114506-0f3618bb-28da-4840-938d-44173f1cefdd.png) 
