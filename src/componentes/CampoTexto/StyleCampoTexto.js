@@ -2,10 +2,16 @@ import styled from 'styled-components';
 
 export const CampoDeTexto = styled.div`
     margin: 24px 0;
+    @media (min-width:375px){
+      margin: 20px 0;
+    }
  label{
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+    @media (min-width:375px){
+      font-size: 16px;
+    }
  }
  input{
     background-color: #FFF;
@@ -15,7 +21,9 @@ export const CampoDeTexto = styled.div`
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
-
+    @media (min-width:375px){
+       font-size:15px;
+       padding: 15px;
+    }
  }
-
 `;

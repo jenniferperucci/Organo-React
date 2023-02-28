@@ -50,7 +50,7 @@ function Home() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Banner />
       <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
 

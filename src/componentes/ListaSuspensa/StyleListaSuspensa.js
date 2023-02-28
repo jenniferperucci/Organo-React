@@ -5,6 +5,9 @@ export const ListasSuspensas = styled.div`
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+    @media (min-width:375px) {
+      font-size: 16px;
+    }
  }
  select{
     background-color: #FFF;
@@ -14,5 +17,9 @@ export const ListasSuspensas = styled.div`
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+    @media (min-width:375px) {
+       font-size:15px;
+       padding: 15px;
+    }
  }
 `;

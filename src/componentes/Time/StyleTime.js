@@ -9,6 +9,12 @@ export const Times= styled.section`
     display: inline-block;
     padding-bottom: 8px;
  }
+ @media (min-width:375px){
+    padding: 5px;
+ h3{
+    font-size:20px;
+}      
+}
 `;
 
 export const Funcionarios = styled.div`
@@ -16,4 +22,7 @@ export const Funcionarios = styled.div`
     justify-content: space-around;
     margin-top: 32px;
     flex-wrap: wrap;
+@media (min-width:375px){
+    margin-top: 10px;
+}
 `;

@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Colaboradores = styled.div`
  width: 280px;
+ @media (min-width:375px) {
+ width: 260px;
+ }
 `;
 
 export const Cabecalho = styled.div`
@@ -11,7 +14,10 @@ export const Cabecalho = styled.div`
     width: 100px;
     border-radius: 50%;
     position: relative;
-    bottom: -50px;
+    bottom: -50px; 
+    @media (min-width:375px) {
+    width: 90px;
+    }
     }
 `;
 
@@ -33,5 +39,9 @@ h5{
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
+}
+@media (min-width:375px) {
+    padding-top: 75px;
+    padding-bottom: 30px;
     }
 `;
